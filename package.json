@@ -1,0 +1,32 @@
+{
+  "name": "@types/react-components",
+  "version": "1.0.0",
+  "description": "Typescript definitions for React components",
+  "license": "ISC",
+  "author": "Alexis Craye",
+  "contributors": [
+    {
+      "name": "YEGO",
+      "url": "https://github.com/GETYUGO",
+      "githubUsername": "GETYUGO"
+    },
+    {
+      "name": "Alexis Craye",
+      "url": "https://github.com/AlexisCra",
+      "githubUsername": "AlexisCra"
+    }
+  ],
+  "main": "",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GETYUGO/rn-lib-components-type.git"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "typeScriptVersion": "4.4",
+  "bugs": {
+    "url": "https://github.com/GETYUGO/rn-lib-components-type/issues"
+  },
+  "homepage": "https://github.com/GETYUGO/rn-lib-components-type#readme"
+}
