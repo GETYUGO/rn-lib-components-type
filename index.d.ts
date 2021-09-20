@@ -3,12 +3,10 @@ import React, { ReactElement, WeakValidationMap } from 'react';
 
 type DefaultChildrenType = ChildrenType.NONE;
 
-/* eslint-disable max-len */
 /**
  * Get a string type of all the optional keys of an interface
  * @template T Any interface
  */
-// eslint-disable-next-line @typescript-eslint/ban-types
 export type OptionalPropertyOf<T> = Exclude<{
   [K in keyof T]: T extends Record<K, T[K]>
   ? never
@@ -19,7 +17,6 @@ export type OptionalPropertyOf<T> = Exclude<{
  * Get a string type of all the required keys of an interface
  * @template T Any interface
  */
-// eslint-disable-next-line @typescript-eslint/ban-types
 export type RequiredPropertyOf<T> = Exclude<{
   [K in keyof T]: T extends Record<K, T[K]>
   ? K
