@@ -2,31 +2,30 @@
   "name": "@enchiladas/react-component",
   "version": "1.0.0",
   "description": "Typescript definitions for React components",
-  "license": "ISC",
+  "license": "MIT",
   "contributors": [
-    {
-      "name": "YEGO",
-      "url": "https://github.com/GETYUGO",
-      "githubUsername": "GETYUGO"
-    },
-    {
-      "name": "Alexis Craye",
-      "url": "https://github.com/AlexisCra",
-      "githubUsername": "AlexisCra"
-    }
+    "YEGO (https://github.com/GETYUGO)",
+    "Alexis Craye (https://github.com/AlexisCra)"
   ],
   "main": "",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GETYUGO/rn-lib-components-type.git",
-    "directory": "enchiladas/react-component"
+    "url": "git+https://github.com/GETYUGO/rn-lib-components-type.git",
+    "directory": ""
   },
   "scripts": {},
-  "dependencies": {},
-  "typeScriptVersion": "3.6",
+  "typeScriptVersion": "4.4",
   "bugs": {
     "url": "https://github.com/GETYUGO/rn-lib-components-type/issues"
   },
-  "homepage": "https://github.com/GETYUGO/rn-lib-components-type#readme"
+  "homepage": "https://github.com/GETYUGO/rn-lib-components-type#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.22",
+    "typescript": "^4.4.3"
+  },
+  "author": "",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
