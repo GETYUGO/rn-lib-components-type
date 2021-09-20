@@ -1,12 +1,12 @@
-# rn-lib-components-type
+# React Component
 Typescript definitions for React components
 
 ## Installation
 ```bash
-npm i @enchiladas/react-components
+npm i @enchiladas/react-component
 ```
 ```bash
-yarn add @enchiladas/react-components
+yarn add @enchiladas/react-component
 ```
 
 ## Description

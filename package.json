@@ -1,5 +1,5 @@
 {
-  "name": "@enchiladas/react-components",
+  "name": "@enchiladas/react-component",
   "version": "1.0.0",
   "description": "Typescript definitions for React components",
   "license": "ISC",
@@ -20,13 +20,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/GETYUGO/rn-lib-components-type.git",
-    "directory": "enchiladas/react-components"
+    "directory": "enchiladas/react-component"
   },
   "scripts": {},
   "dependencies": {
     "react": "^17.0.2"
   },
-  "typeScriptVersion": "3.5",
+  "typeScriptVersion": "3.6",
   "bugs": {
     "url": "https://github.com/GETYUGO/rn-lib-components-type/issues"
   },
