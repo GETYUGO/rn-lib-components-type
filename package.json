@@ -7,17 +7,13 @@
     "YEGO (https://github.com/GETYUGO)",
     "Alexis Craye (https://github.com/AlexisCra)"
   ],
-  "main": "",
-  "types": "./src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/GETYUGO/rn-lib-components-type.git"
   },
-  "scripts": {
-    "lint": "eslint src/ --fix",
-    "build": "babel -d lib/ src/",
-    "test": "jest"
-  },
+  "scripts": {},
   "typeScriptVersion": "4.4",
   "bugs": {
     "url": "https://github.com/GETYUGO/rn-lib-components-type/issues"
