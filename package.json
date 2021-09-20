@@ -23,9 +23,7 @@
     "directory": "enchiladas/react-component"
   },
   "scripts": {},
-  "dependencies": {
-    "react": "^17.0.2"
-  },
+  "dependencies": {},
   "typeScriptVersion": "3.6",
   "bugs": {
     "url": "https://github.com/GETYUGO/rn-lib-components-type/issues"
