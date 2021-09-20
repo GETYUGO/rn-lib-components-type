@@ -1,5 +1,5 @@
 {
-  "name": "@enchiladas/react-component",
+  "name": "@types/react-component",
   "version": "1.0.0",
   "description": "Typescript definitions for React components",
   "license": "MIT",
