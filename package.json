@@ -1,5 +1,5 @@
 {
-  "name": "@types/react-component",
+  "name": "react-component",
   "version": "1.0.0",
   "description": "Typescript definitions for React components",
   "license": "MIT",
@@ -11,8 +11,7 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GETYUGO/rn-lib-components-type.git",
-    "directory": ""
+    "url": "https://github.com/GETYUGO/rn-lib-components-type.git"
   },
   "scripts": {},
   "typeScriptVersion": "4.4",
