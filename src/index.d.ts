@@ -1,5 +1,5 @@
 import { ValidationMap } from 'prop-types';
-import { ReactElement, WeakValidationMap } from 'react';
+import React, { ReactElement, WeakValidationMap } from 'react';
 declare type DefaultChildrenType = ChildrenType.NONE;
 /**
  * Get a string type of all the optional keys of an interface
@@ -84,7 +84,7 @@ declare type CustomFunctionComponentBase<PropsType, DefaultKeys extends (PropsTy
  * @template Ref Interface representing ref object of the compoenent or undefined (default: undefined).
  * @template Children ChildrenType who represent the type of the children props (default : ChildrenType.NONE). For VoidFunctionComponent, choose ChildrenType.NONE.
  */
-export declare type CustomFunctionComponent<PropsType, DefaultKeys extends (PropsType extends undefined ? undefined : (keyof PropsType | undefined)) = undefined, Ref extends Record<keyof Ref, unknown> | undefined = undefined, Children extends ChildrenType = DefaultChildrenType> = CustomFunctionComponentBase<PropsType, DefaultKeys, Ref, Children>;
+export declare type CustomFunctionComponent<PropsType, DefaultKeys extends (PropsType extends undefined ? undefined : (keyof PropsType | undefined)) = undefined, Ref extends Record<keyof Ref, unknown> | undefined | React.FC = undefined, Children extends ChildrenType = DefaultChildrenType> = CustomFunctionComponentBase<PropsType, DefaultKeys, Ref, Children>;
 export declare type Internal<T extends {
     [PropsKeys.INTERNAL]: unknown;
 }> = T[PropsKeys.INTERNAL];

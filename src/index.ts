@@ -1,5 +1,6 @@
 import { ValidationMap } from 'prop-types';
 import { ReactElement, WeakValidationMap } from 'react';
+import React = require('react');
 
 type DefaultChildrenType = ChildrenType.NONE;
 
@@ -114,7 +115,7 @@ type CustomFunctionComponentUgly<
   RequiredProps extends Record<keyof RequiredProps, unknown> | undefined,
   DefaultProps extends Record<keyof DefaultProps, unknown> | undefined,
   OptionalProps extends Record<keyof OptionalProps, unknown> | undefined,
-  Ref extends Record<keyof Ref, unknown> | undefined = undefined,
+  Ref extends Record<keyof Ref, unknown> | undefined | React.FC = undefined,
   Children extends ChildrenType = DefaultChildrenType,
   InternalProps extends MergeIfDefined<ComponentPropsInternal<RequiredProps, DefaultProps, OptionalProps>, RefAttributeIfDefined<Ref>> = MergeIfDefined<ComponentPropsInternal<RequiredProps, DefaultProps, OptionalProps>, RefAttributeIfDefined<Ref>>,
   ExternalProps extends MergeIfDefined<ComponentPropsExternal<RequiredProps, DefaultProps, OptionalProps>, RefAttributeIfDefined<Ref>> = MergeIfDefined<ComponentPropsExternal<RequiredProps, DefaultProps, OptionalProps>, RefAttributeIfDefined<Ref>>,
