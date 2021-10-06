@@ -1,24 +1,25 @@
 {
-  "name": "react-component",
+  "name": "@rideyego/types-react-component",
   "version": "1.0.2",
   "description": "Typescript definitions for React components",
   "license": "MIT",
   "contributors": [
     "YEGO (https://github.com/GETYUGO)",
-    "Alexis Craye (https://github.com/AlexisCra)"
+    "Alexis 'Enchiladas' Craye (https://github.com/AlexisCra)",
+    "Pablo 'Torme' Giraud-Carrier (https://github.com/pablogdcr)"
   ],
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GETYUGO/rn-lib-components-type.git"
+    "url": "https://github.com/GETYUGO/type-react-component.git"
   },
   "scripts": {},
   "typeScriptVersion": "4.4",
   "bugs": {
-    "url": "https://github.com/GETYUGO/rn-lib-components-type/issues"
+    "url": "https://github.com/GETYUGO/type-react-component/issues"
   },
-  "homepage": "https://github.com/GETYUGO/rn-lib-components-type#readme",
+  "homepage": "https://github.com/GETYUGO/type-react-component#readme",
   "peerDependencies": {
     "react": "^17.0.1"
   },

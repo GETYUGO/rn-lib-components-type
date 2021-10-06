@@ -3,10 +3,10 @@ Typescript definitions for React components
 
 ## Installation
 ```bash
-npm i @enchiladas/react-component
+npm i @rideyego/types-react-component
 ```
 ```bash
-yarn add @enchiladas/react-component
+yarn add @rideyego/types-react-component
 ```
 
 ## Description
