@@ -1,6 +1,6 @@
 {
   "name": "@rideyego/types-react-component",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Typescript definitions for React components",
   "license": "MIT",
   "contributors": [
@@ -19,11 +19,5 @@
   "bugs": {
     "url": "https://github.com/GETYUGO/type-react-component/issues"
   },
-  "homepage": "https://github.com/GETYUGO/type-react-component#readme",
-  "peerDependencies": {
-    "react": "^18.0.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.18"
-  }
+  "homepage": "https://github.com/GETYUGO/type-react-component#readme"
 }
